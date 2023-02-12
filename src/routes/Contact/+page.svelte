@@ -8,6 +8,7 @@
   let name: string = '';
   let email: string = '';
   let message: string = '';
+  let isSubmitted: boolean = false;
 
   $: isNameError = name.trim() === '';
   $: isMessageError = message.trim() === '';
@@ -16,6 +17,8 @@
 
   function handleSubmit(event: any) {
     event.preventDefault();
+    isSubmitted = true;
+    if (!isValid) return;
     const form = event.target;
     const formData = new FormData(form);
     fetch(form.action, {
@@ -62,8 +65,10 @@
           placeholder="Yasura Huzino"
           bind:value={name}
           required />
-        {#if isNameError}
-          <InfoBox statusType="error"><p>名前を入力してください。</p></InfoBox>
+        {#if isSubmitted}
+          {#if isNameError}
+            <InfoBox statusType="error"><p>名前を入力してください。</p></InfoBox>
+          {/if}
         {/if}
       </div>
       <div class="item">
@@ -76,8 +81,10 @@
           id="email"
           bind:value={email}
           required />
-        {#if isEmailError}
-          <InfoBox statusType="error"><p>正しいメールアドレスを入力してください。</p></InfoBox>
+        {#if isSubmitted}
+          {#if isEmailError}
+            <InfoBox statusType="error"><p>正しいメールアドレスを入力してください。</p></InfoBox>
+          {/if}
         {/if}
       </div>
 
@@ -90,17 +97,13 @@
           placeholder="お友達になってくれませんか？"
           bind:value={message}
           required />
-        {#if isMessageError}
-          <InfoBox statusType="error"><p>問い合わせ内容を入力してください。</p></InfoBox>
+        {#if isSubmitted}
+          {#if isMessageError}
+            <InfoBox statusType="error"><p>問い合わせ内容を入力してください。</p></InfoBox>
+          {/if}
         {/if}
       </div>
-
-      {#if isValid}
-        <input type="submit" />
-      {/if}
-      {#if !isValid}
-        <input type="submit" disabled />
-      {/if}
+      <input type="submit" />
     </form>
   </article>
 </Post>
