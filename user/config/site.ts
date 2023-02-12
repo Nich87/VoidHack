@@ -48,20 +48,6 @@ export const headConfig: Site.Head = {
         ]
       : [
           // For Production Environment
-
-          // Replace the following with your own setting
-
-          // Plausible
-          // '<link rel="preconnect" href="https://plausible.kwchang0831.dev" />',
-          // '<script defer type="text/partytown" data-domain="svelte-qwer.vercel.app" src="https://plausible.kwchang0831.dev/js/plausible.js"></script>',
-          // Google tag (gtag.js)
-          `<script async src="https://www.googletagmanager.com/gtag/js?id=G-56WN89R9P0"></script>`,
-          `<script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-56WN89R9P0');
-          </script>`,
         ],
 };
 
