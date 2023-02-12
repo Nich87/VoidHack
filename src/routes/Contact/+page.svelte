@@ -15,11 +15,12 @@
   $: isEmailError = !/[\w\-._]+@[\w\-._]+\.[A-Za-z]+/.test(email);
   $: isValid = isNameError === isMessageError && isNameError === isEmailError && isEmailError === false;
 
-  function handleSubmit(event: any) {
+  function handleSubmit(event: SubmitEvent) {
     event.preventDefault();
     isSubmitted = true;
     if (!isValid) return;
-    const form = event.target;
+    let href = window.location.href;
+    const form: any = event.target;
     const formData = new FormData(form);
     fetch(form.action, {
       method: form.method,
@@ -28,18 +29,18 @@
       .then((res) => {
         if (res.ok) {
           // POSTに成功した場合の処理
-          window.location.href = './Contact/thanks';
+          href = './Contact/thanks';
         } else {
           // POSTに失敗した場合の処理
           console.error('POST failed', res);
           //TODO:Reset form and Error Modal
-          window.location.href = './Contact/thanks';
+          href = './Contact/thanks';
         }
       })
-      .catch((error) => {
+      .catch((err) => {
         // POST時にエラーが発生した場合の処理
-        console.error('POST failed', error);
-        window.location.href = './Contact/thanks';
+        console.error('POST failed', err);
+        href = './Contact/thanks';
         //TODO:Reset form and Error Modal
       });
   }
@@ -51,11 +52,10 @@
   <article slot="post_content">
     <form
       on:submit={handleSubmit}
-      id="form"
       action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe5Rmt9_mnAFJyiVIAZ67RDRrQ98UwCGnr_6elpToY9xj7sJw/formResponse"
       method="POST"
       novalidate>
-      <div class="item">
+      <div>
         <label class="form-label" for="name">お名前</label>
         <input
           class="form-control"
@@ -71,7 +71,7 @@
           {/if}
         {/if}
       </div>
-      <div class="item">
+      <div>
         <label class="form-label" for="email">メールアドレス</label>
         <input
           class="form-control"
@@ -87,12 +87,11 @@
           {/if}
         {/if}
       </div>
-
-      <div class="item">
-        <label class="form-label" for="input_ex">お問い合わせ・ご意見</label>
+      <div>
+        <label class="form-label" for="text">お問い合わせ・ご意見</label>
         <textarea
           class="form-control"
-          id="input_ex"
+          id="text"
           name="entry.1364742016"
           placeholder="お友達になってくれませんか？"
           bind:value={message}
@@ -163,9 +162,5 @@
     border-radius: 6px;
     cursor: pointer;
     width: 80px;
-  }
-
-  input:disabled {
-    background-color: #495057;
   }
 </style>

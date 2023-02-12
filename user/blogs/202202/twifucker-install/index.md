@@ -2,8 +2,8 @@
 title: 【TwiFucker】Twitterを快適にするXposedモジュール
 description:
 summary: ✨ Twitterを快適にするTwiFuckerの紹介記事です。
-published: '2023-02-09T00:00:00.000+08:00'
-updated: '2023-02-09T21:00:00.000+08:00'
+published: '2023-02-09T00:00:00.000+09:00'
+updated: '2023-02-13T00:00:00.000+09:00'
 cover: ./assets/cover.jpg
 coverStyle: TOP
 tags:
@@ -52,7 +52,7 @@ TwiFucker並びにLSPatchを導入したことによる故障、アカウントB
 1. #### パッチモードを選択する
    そうすると下記のような画面が出てきますのでモード**のみ**選択しましょう。
 
-   ![scrreenshot](/user/blogs/202202/twifucker-install/assets/patchmode.png)
+   ![scrreenshot](./assets/patchmode.png)
 
    :::tip
 

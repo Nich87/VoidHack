@@ -56,7 +56,13 @@
           <strong>のみ</strong>
           選択しましょう。
         </p>
-        <p><ImgZoom src="/user/blogs/202202/twifucker-install/assets/patchmode.png" alt="scrreenshot" /></p>
+        <p>
+          <ImgZoom
+            src="Z:\202202\twifucker-install\assets\patchmode.png"
+            alt="scrreenshot"
+            width="1427"
+            height="2908" />
+        </p>
         <InfoBox statusType="tip">
           <ul>
             <li>

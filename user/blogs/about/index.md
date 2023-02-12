@@ -1,8 +1,8 @@
 ---
 title: About VoidHack
 description: Information about VoidHack - 徒然なるままに呟くブログ
-published: '2023-02-09T00:00:00.000+08:00'
-updated: '2023-02-09T00:00:00.000+08:00'
+published: '2023-02-09T00:00:00.000+09:00'
+updated: '2023-02-13T00:00:00.000+09:00'
 options:
   - unlisted
 ---
@@ -12,7 +12,7 @@ options:
 このブログは[あると](https://twitter.com/const_root/)が気ままにつぶやく技術系(？)ブログです
 
 ## ✨このホームページで使っているもの
-下記に使わせている技術などを記載しております。
+下記に使わさせて頂いている技術などを記載しております。
 
 
 - ⚡[Svelte Kit](https://kit.svelte.jp/)
