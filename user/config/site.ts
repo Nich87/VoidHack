@@ -23,8 +23,7 @@ export const siteConfig: Site.Config = {
   author: {
     name: 'Nich87',
     status: '🤔',
-    statusTip:
-      '<a href="https://github.com/Nich87/" rel="external" style="color:#0F0" onMouseOver="this.style.color=\'#0FF\'" onMouseOut="this.style.color=\'#0F0\'" >Github</a>',
+    // statusTip:'<a href="https://github.com/Nich87/" rel="external" style="color:#0F0" onMouseOver="this.style.color=\'#0FF\'" onMouseOut="this.style.color=\'#0F0\'" >Github</a>',
     avatar: Avatar,
     avatar_128: Avatar_128,
     avatar_48_png: Avatar_48_PNG,
