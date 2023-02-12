@@ -79,27 +79,27 @@ TwiFucker並びにLSPatchを導入したことによる故障、アカウントB
 
 1. #### インストールする
    ビルド完了後に起動時に設定したディレクトリにビルド済みのapkがデプロイされます。
-   ![scrennshot](/user/blogs/202202/twifucker-install/assets/build-apk.png)
+   ![scrennshot](./assets/build-apk.png)
    インストールしたら再度LSPatchを起動し管理画面に行くと下記のように表示されているはずです。
 
    Twitterをタッチ→モジュールのスコープをタッチ
-   ![screenshot](/user/blogs/202202/twifucker-install/assets/kanri.png)
+   ![screenshot](./assets/kanri.png)
 
    そうすると下記のようにTwiFuckerが出てくるので☑にします。
 
    完了したら、右下のボタンを押下し適用させてください。
-   ![screenshot](/user/blogs/202202/twifucker-install/assets/scope.png)
+   ![screenshot](./assets/scope.png)
 
 ## 🚀 快適なTwitterライフを
 起動した際にTwiFuckerのトーストが表示されていれば無事導入されています。
 
 `設定とプライバシー`=>`その他のリソース`=>`バージョンx.xx.x-xxx.x`の順に辿ると下記のようなモーダルが表示されるはずです。
 
-   ![screenshot](/user/blogs/202202/twifucker-install/assets/twifucker.png)
+   ![screenshot](./assets/twifucker.png)
 
    様々な項目がありますが大きな項目としては下記のようなドロワーアイテムの削除であったり、
    動画や画像のダウンロード機能などでしょうか。広告消去が一番大きなものではあると思います。
-      ![screenshot](/user/blogs/202202/twifucker-install/assets/twifk_menu.png)
+      ![screenshot](./assets/twifk_menu.png)
 
 
 ## 📚 機能一覧
