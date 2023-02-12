@@ -18,7 +18,7 @@
       が気ままにつぶやく技術系(？)ブログです
     </p>
     <h2 id="konohmupjidetteirumono"><a href="#konohmupjidetteirumono">✨このホームページで使っているもの</a></h2>
-    <p>下記に使わせている技術などを記載しております。</p>
+    <p>下記に使わさせて頂いている技術などを記載しております。</p>
     <ul>
       <li>
         ⚡
