@@ -19,7 +19,6 @@
     event.preventDefault();
     isSubmitted = true;
     if (!isValid) return;
-    let href = window.location.href;
     const form: any = event.target;
     const formData = new FormData(form);
     fetch(form.action, {
@@ -29,18 +28,18 @@
       .then((res) => {
         if (res.ok) {
           // POSTに成功した場合の処理
-          href = './Contact/thanks';
+          window.location.href = './Contact/thanks';
         } else {
           // POSTに失敗した場合の処理
           console.error('POST failed', res);
           //TODO:Reset form and Error Modal
-          href = './Contact/thanks';
+          window.location.href = './Contact/thanks';
         }
       })
       .catch((err) => {
         // POST時にエラーが発生した場合の処理
         console.error('POST failed', err);
-        href = './Contact/thanks';
+        window.location.href = './Contact/thanks';
         //TODO:Reset form and Error Modal
       });
   }
