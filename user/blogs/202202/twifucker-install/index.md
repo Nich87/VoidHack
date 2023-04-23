@@ -1,13 +1,13 @@
 ---
 title: 【TwiFucker】Twitterを快適にするXposedモジュール
-description:
-summary: ✨ Twitterを快適にするTwiFuckerの紹介記事です。
+description: TwiFuckerとLSPatchを導入する記事です。
+summary: ✨ Twitterをより快適に使ってみよう！。
 published: '2023-02-09T00:00:00.000+09:00'
-updated: '2023-02-13T00:00:00.000+09:00'
+updated: '2023-04-22T23:00:00.000+09:00'
 cover: ./assets/cover.jpg
 coverStyle: TOP
 tags:
-  - [Android,Xposed,]
+  - [Android,Xposed]
 ---
 
 
@@ -33,7 +33,7 @@ TwiFucker並びにLSPatchを導入したことによる故障、アカウントB
 
 ## ⚡️ TwiFuckerを試す
 
-1. #### 各種ダウンロード
+### 各種ダウンロード
 
  - [LSPatch](https://github.com/LSPosed/LSPatch/releases)
  - [TwiFucker](https://github.com/Dr-TSNG/TwiFucker/releases/tag/1.9)
@@ -99,7 +99,7 @@ TwiFucker並びにLSPatchを導入したことによる故障、アカウントB
 
    様々な項目がありますが大きな項目としては下記のようなドロワーアイテムの削除であったり、
    動画や画像のダウンロード機能などでしょうか。広告消去が一番大きなものではあると思います。
-      ![screenshot](./assets/twifk_menu.png)
+   ![screenshot](./assets/twifk_menu.png)
 
 
 ## 📚 機能一覧

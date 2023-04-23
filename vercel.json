@@ -17,7 +17,7 @@
         },
         {
           "key": "Content-Security-Policy",
-          "value": "style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' https://voidhacker.com/ https://giscus.app https://www.youtube.com https://www.youtube.com https://twitter.com/"
+          "value": "style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' https://voidhacker.com/ https://giscus.app/ https://www.youtube.com/ https://www.youtube.com/ https://twitter.com/;"
         },
         { "key": "Strict-Transport-Security",
           "value": "max-age=63072000; includeSubDomains; preload"
