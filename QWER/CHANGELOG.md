@@ -1,5 +1,31 @@
 # @kwchang0831/qwer
 
+## 0.5.2
+
+### Patch Changes
+
+- 7532a12: fix: try fix issue#58
+- 63cbb54: deps: upgrade (non svelte related deps)
+- 4607137: config: remove pnpm version restriction
+
+## 0.5.1
+
+### Patch Changes
+
+- ecac1a1: fix: cannot add tags when tags is not provided
+
+## 0.5.0
+
+### Minor Changes
+
+- 19bde79: fix: incorrect character codes for HTML when parsing
+
+## 0.4.0
+
+### Minor Changes
+
+- dc4531d: deps upgrade
+
 ## 0.3.1
 
 ### Patch Changes

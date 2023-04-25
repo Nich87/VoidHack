@@ -37,7 +37,7 @@
     loadLocale(baseLocale);
     setLocale(baseLocale);
   }
-
+  // Party Townは使用しないためコメントアウト
   // import { onMount } from 'svelte';
   // import { partytownSnippet } from '@builder.io/partytown/integration';
 
