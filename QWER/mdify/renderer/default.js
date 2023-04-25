@@ -319,10 +319,10 @@ export const default_renderer = (basePath) => {
         // The Rest
         const escapeTest = /[{|}|(|)]/g;
         const toEscape = {
-          '{': '&lcub;',
-          '}': '&rcub;',
-          '(': '&lpar;',
-          ')': '&rpar;',
+          '{': '&lcub',
+          '}': '&rcub',
+          '(': '&lpar',
+          ')': '&rpar',
         };
         text = text.replace(escapeTest, (c) => toEscape[c]);
 
@@ -374,18 +374,23 @@ export const default_renderer = (basePath) => {
           if (alt === '') alt = href;
 
           if (ImageConfig.SupportedImageFormat.includes(ext)) {
-            // let imgPath = path.join(process.cwd(), path.join(CoreConfig.UserBlogsFolder, href));
-            // if (existsSync(imgPath)) {
-            //   let imgMeta = probe.sync(readFileSync(imgPath));
-            //   return `<ImgZoom src="${imgPath}" alt="${alt}" width="${imgMeta?.width}" height="${imgMeta?.height}">${
-            //     title ? `${title}` : ''
-            //   }</ImgZoom>`;
-            // }
+            let imgPath = path.join(process.cwd(), path.join(CoreConfig.UserBlogsFolder, href));
+            let imgMeta;
+            if (existsSync(imgPath)) {
+              imgMeta = probe.sync(readFileSync(imgPath));
+              // Internally uses posix style backslashes
+              href = path.resolve('/', href.split(path.sep).join(path.posix.sep));
+              return `<ImgZoom src="${href}" alt="${alt}" width="${imgMeta?.width}" height="${imgMeta?.height}">${
+                title ? `${title}` : ''
+              }</ImgZoom>`;
+            }
             return `<ImgZoom src="${href}" alt="${alt}">${title ? `${title}` : ''}</ImgZoom>`;
           }
           if (ImageConfig.SupportedVideoFormat.includes(ext)) {
-            if (ext === 'mp4') return `<Video mp4="${href}" id="${alt}" ${title ? `title="${title}"` : ''}/>`;
-            if (ext === 'webm') return `<Video webm="${href}" id="${alt}" ${title ? `title="${title}"` : ''}/>`;
+            if (ext === 'mp4')
+              return `<Video mp4="${path.resolve('/', href)}" id="${alt}" ${title ? `title="${title}"` : ''}/>`;
+            if (ext === 'webm')
+              return `<Video webm="${path.resolve('/', href)}" id="${alt}" ${title ? `title="${title}"` : ''}/>`;
           }
         }
         return `<ImgZoom src="${href}" alt="${alt}">${title ? `${title}` : ''}</ImgZoom>`;
@@ -397,3 +402,4 @@ export const default_renderer = (basePath) => {
     },
   };
 };
+
