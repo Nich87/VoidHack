@@ -12,9 +12,9 @@
     "url": "https://github.com/kwchang0831/svelte-qwer/issues"
   },
   "author": "kwchang0831",
-  "packageManager": "pnpm@7.9.3",
+  "packageManager": "pnpm@8.3.1",
   "engines": {
-    "pnpm": "^7.0.0"
+    "pnpm": "^8.3.1"
   },
   "workspaces": [
     "./",
@@ -116,5 +116,8 @@
   },
   "peerDependencies": {
     "imagetools-core": "^3.3.1"
+  },
+  "dependencies": {
+    "pnpm": "^8.3.1"
   }
 }
