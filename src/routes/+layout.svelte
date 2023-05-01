@@ -7,7 +7,7 @@
   import '$lib/styles/global.scss';
   import 'uno.css';
   import 'tippy.js/dist/tippy.css';
-  import 'tippy.js/themes/material.css';
+  // import 'tippy.js/themes/material.css';
   import 'tippy.js/animations/shift-away.css';
 
   import { fly } from 'svelte/transition';
