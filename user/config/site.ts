@@ -76,7 +76,7 @@ export const dateConfig: Site.DateConfig = {
 // Replace with your own Giscus setting
 // See https://giscus.app/
 export const giscusConfig: Giscus.Config = {
-  enable: true,
+  enable: false,
   id: 'giscus-comment',
   repo: 'Nich87/VoidHack',
   repoId: 'R_kgDOI7ZDfg',

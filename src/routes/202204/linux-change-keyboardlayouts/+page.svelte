@@ -38,7 +38,13 @@
             class="language-bash">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"><span class="token function">sudo</span> dpkg-reconfigure keyboard-configuration</div></div>`}</code></pre>
       </CodeCopy>
     </div>
-    <p><ImgZoom src="202204/linux-change-keyboardlayouts/assets/terminal.png" alt="scrennshot-terminal" /></p>
+    <p>
+      <ImgZoom
+        src="/202204/linux-change-keyboardlayouts/assets/terminal.png"
+        alt="scrennshot-terminal"
+        width="868"
+        height="677" />
+    </p>
     <p>そうすると下記のようなモデルの選択画面に遷移します。</p>
     <p>
       今回は
@@ -46,35 +52,63 @@
       を使用しているため
       <code class="inline-code-block">Apple Aluminium（JIS）</code>
       を選択しています。
-      <ImgZoom src="202204/linux-change-keyboardlayouts/assets/model.png" alt="scrennshot-model-select" />
+      <ImgZoom
+        src="/202204/linux-change-keyboardlayouts/assets/model.png"
+        alt="scrennshot-model-select"
+        width="868"
+        height="677" />
     </p>
     <p>
       次に進むと国設定に移動しますので
       <code class="inline-code-block">Japanese</code>
       を選択して進みます。
-      <ImgZoom src="202204/linux-change-keyboardlayouts/assets/region.png" alt="scrennshot-region-select" />
+      <ImgZoom
+        src="/202204/linux-change-keyboardlayouts/assets/region.png"
+        alt="scrennshot-region-select"
+        width="868"
+        height="677" />
     </p>
     <p>
       そうするとキーボードレイアウトを選択する画面に遷移するので
       <code class="inline-code-block">Japanese（Macintosh）</code>
       を選択します。
-      <ImgZoom src="202204/linux-change-keyboardlayouts/assets/_layout.png" alt="scrennshot-layout-select" />
+      <ImgZoom
+        src="/202204/linux-change-keyboardlayouts/assets/_layout.png"
+        alt="scrennshot-layout-select"
+        width="868"
+        height="677" />
     </p>
     <p>これ以降はナショナル/ラテンモードの切り替え・一時切り替えを有効にするか質問されますが、</p>
     <p>
       いずれも切り替えなしを選択します。
-      <ImgZoom src="202204/linux-change-keyboardlayouts/assets/change1.png" alt="scrennshot-choose-change1" />
-      <ImgZoom src="202204/linux-change-keyboardlayouts/assets/change2.png" alt="scrennshot-choose-change2" />
+      <ImgZoom
+        src="/202204/linux-change-keyboardlayouts/assets/change1.png"
+        alt="scrennshot-choose-change1"
+        width="868"
+        height="677" />
+      <ImgZoom
+        src="/202204/linux-change-keyboardlayouts/assets/change2.png"
+        alt="scrennshot-choose-change2"
+        width="868"
+        height="677" />
     </p>
     <p>
       AltGrとして機能させるキーの設定:
       <code class="inline-code-block">キーボード配置のデフォルト</code>
-      <ImgZoom src="202204/linux-change-keyboardlayouts/assets/alt_default.png" alt="scrennshot-altgr-select" />
+      <ImgZoom
+        src="/202204/linux-change-keyboardlayouts/assets/alt_default.png"
+        alt="scrennshot-altgr-select"
+        width="868"
+        height="677" />
     </p>
     <p>
       コンポーズキー:
       <code class="inline-code-block">コンポーズキーなし</code>
-      <ImgZoom src="202204/linux-change-keyboardlayouts/assets/compose.png" alt="scrennshot-compose-select" />
+      <ImgZoom
+        src="/202204/linux-change-keyboardlayouts/assets/compose.png"
+        alt="scrennshot-compose-select"
+        width="868"
+        height="677" />
     </p>
     <p>
       Xサーバーの強制に
@@ -85,7 +119,11 @@
       <kbd>Backspace</kbd>
       を使うか:
       <code class="inline-code-block">いいえ</code>
-      <ImgZoom src="202204/linux-change-keyboardlayouts/assets/cab.png" alt="scrennshot-cab-select" />
+      <ImgZoom
+        src="/202204/linux-change-keyboardlayouts/assets/cab.png"
+        alt="scrennshot-cab-select"
+        width="868"
+        height="677" />
     </p>
     <p>
       いいえを選択後は自動的にターミナルへ遷移し設定が終われば操作は終了です。 あとは
