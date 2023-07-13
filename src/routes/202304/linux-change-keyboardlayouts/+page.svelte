@@ -40,7 +40,7 @@
     </div>
     <p>
       <ImgZoom
-        src="/202204/linux-change-keyboardlayouts/assets/terminal.png"
+        src="/202304/linux-change-keyboardlayouts/assets/terminal.png"
         alt="scrennshot-terminal"
         width="868"
         height="677" />
@@ -53,7 +53,7 @@
       <code class="inline-code-block">Apple Aluminium（JIS）</code>
       を選択しています。
       <ImgZoom
-        src="/202204/linux-change-keyboardlayouts/assets/model.png"
+        src="/202304/linux-change-keyboardlayouts/assets/model.png"
         alt="scrennshot-model-select"
         width="868"
         height="677" />
@@ -63,7 +63,7 @@
       <code class="inline-code-block">Japanese</code>
       を選択して進みます。
       <ImgZoom
-        src="/202204/linux-change-keyboardlayouts/assets/region.png"
+        src="/202304/linux-change-keyboardlayouts/assets/region.png"
         alt="scrennshot-region-select"
         width="868"
         height="677" />
@@ -73,7 +73,7 @@
       <code class="inline-code-block">Japanese（Macintosh）</code>
       を選択します。
       <ImgZoom
-        src="/202204/linux-change-keyboardlayouts/assets/_layout.png"
+        src="/202304/linux-change-keyboardlayouts/assets/_layout.png"
         alt="scrennshot-layout-select"
         width="868"
         height="677" />
@@ -82,12 +82,12 @@
     <p>
       いずれも切り替えなしを選択します。
       <ImgZoom
-        src="/202204/linux-change-keyboardlayouts/assets/change1.png"
+        src="/202304/linux-change-keyboardlayouts/assets/change1.png"
         alt="scrennshot-choose-change1"
         width="868"
         height="677" />
       <ImgZoom
-        src="/202204/linux-change-keyboardlayouts/assets/change2.png"
+        src="/202304/linux-change-keyboardlayouts/assets/change2.png"
         alt="scrennshot-choose-change2"
         width="868"
         height="677" />
@@ -96,7 +96,7 @@
       AltGrとして機能させるキーの設定:
       <code class="inline-code-block">キーボード配置のデフォルト</code>
       <ImgZoom
-        src="/202204/linux-change-keyboardlayouts/assets/alt_default.png"
+        src="/202304/linux-change-keyboardlayouts/assets/alt_default.png"
         alt="scrennshot-altgr-select"
         width="868"
         height="677" />
@@ -105,7 +105,7 @@
       コンポーズキー:
       <code class="inline-code-block">コンポーズキーなし</code>
       <ImgZoom
-        src="/202204/linux-change-keyboardlayouts/assets/compose.png"
+        src="/202304/linux-change-keyboardlayouts/assets/compose.png"
         alt="scrennshot-compose-select"
         width="868"
         height="677" />
@@ -120,7 +120,7 @@
       を使うか:
       <code class="inline-code-block">いいえ</code>
       <ImgZoom
-        src="/202204/linux-change-keyboardlayouts/assets/cab.png"
+        src="/202304/linux-change-keyboardlayouts/assets/cab.png"
         alt="scrennshot-cab-select"
         width="868"
         height="677" />
