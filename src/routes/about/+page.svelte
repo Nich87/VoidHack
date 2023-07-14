@@ -39,8 +39,11 @@
       <li>💎 giscus</li>
     </ul>
     <p>
-      <a href="https://docs.github.com/en/discussions" rel="external">GitHub Discussions</a>
-      を利用したコメントシステムです。
+      <del>
+        <a href="https://docs.github.com/en/discussions" rel="external">GitHub Discussions</a>
+        を利用したコメントシステムです。
+      </del>
+      →パフォーマンスを優先し削除しました。
     </p>
     <h2 id="raisensu"><a href="#raisensu">📝 ライセンス</a></h2>
     <p><a href="https://github.com/Nich87/VoidHack/blob/main/LICENSE" rel="external">MIT</a></p>

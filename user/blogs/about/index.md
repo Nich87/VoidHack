@@ -2,7 +2,6 @@
 title: About VoidHack
 description: Information about VoidHack - 徒然なるままに呟くブログ
 published: '2023-02-09T00:00:00.000+09:00'
-updated: '2023-02-13T00:00:00.000+09:00'
 options:
   - unlisted
 ---
@@ -25,7 +24,8 @@ SvelteとViteを組み合わせたフレームワークで、非常に簡潔に�
 
 - 💎 giscus
 
-[GitHub Discussions](https://docs.github.com/en/discussions)を利用したコメントシステムです。
+~~[GitHub Discussions](https://docs.github.com/en/discussions)を利用したコメントシステムです。~~
+→パフォーマンスを優先し削除しました。
 
 
 
