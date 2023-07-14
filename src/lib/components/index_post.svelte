@@ -154,6 +154,10 @@
 {/if}
 
 <style lang="scss">
+  .index-post-panel {
+    min-height: 200px;
+  }
+
   .index-post {
     border-top: var(--qwer-border-mobile);
     border-bottom: var(--qwer-border-mobile);
