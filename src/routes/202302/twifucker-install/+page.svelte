@@ -55,7 +55,7 @@
           選択しましょう。
         </p>
         <p>
-          <ImgZoom src="/202202/twifucker-install/assets/patchmode.png" alt="scrreenshot" width="1427" height="2908" />
+          <ImgZoom src="/202302/twifucker-install/assets/patchmode.png" alt="scrreenshot" width="1427" height="2908" />
         </p>
         <InfoBox statusType="tip">
           <ul>
@@ -83,17 +83,17 @@
         <h4 id="insutrusuru"><a href="#insutrusuru">インストールする</a></h4>
         <p>
           ビルド完了後に起動時に設定したディレクトリにビルド済みのapkがデプロイされます。
-          <ImgZoom src="/202202/twifucker-install/assets/build-apk.png" alt="scrennshot" width="1440" height="345" />
+          <ImgZoom src="/202302/twifucker-install/assets/build-apk.png" alt="scrennshot" width="1440" height="345" />
           インストールしたら再度LSPatchを起動し管理画面に行くと下記のように表示されているはずです。
         </p>
         <p>
           Twitterをタッチ→モジュールのスコープをタッチ
-          <ImgZoom src="/202202/twifucker-install/assets/kanri.png" alt="screenshot" width="1440" height="1140" />
+          <ImgZoom src="/202302/twifucker-install/assets/kanri.png" alt="screenshot" width="1440" height="1140" />
         </p>
         <p>そうすると下記のようにTwiFuckerが出てくるので☑にします。</p>
         <p>
           完了したら、右下のボタンを押下し適用させてください。
-          <ImgZoom src="/202202/twifucker-install/assets/scope.png" alt="screenshot" width="1440" height="452" />
+          <ImgZoom src="/202302/twifucker-install/assets/scope.png" alt="screenshot" width="1440" height="452" />
         </p>
       </li>
     </ol>
@@ -107,11 +107,11 @@
       <code class="inline-code-block">バージョンx.xx.x-xxx.x</code>
       の順に辿ると下記のようなモーダルが表示されるはずです。
     </p>
-    <p><ImgZoom src="/202202/twifucker-install/assets/twifucker.png" alt="screenshot" width="1254" height="2793" /></p>
+    <p><ImgZoom src="/202302/twifucker-install/assets/twifucker.png" alt="screenshot" width="1254" height="2793" /></p>
     <p>
       様々な項目がありますが大きな項目としては下記のようなドロワーアイテムの削除であったり、
       動画や画像のダウンロード機能などでしょうか。広告消去が一番大きなものではあると思います。
-      <ImgZoom src="/202202/twifucker-install/assets/twifk_menu.png" alt="screenshot" width="1246" height="1414" />
+      <ImgZoom src="/202302/twifucker-install/assets/twifk_menu.png" alt="screenshot" width="1246" height="1414" />
     </p>
     <h2 id="ji1-neng2-yi1-lan3"><a href="#ji1-neng2-yi1-lan3">📚 機能一覧</a></h2>
     <p>
