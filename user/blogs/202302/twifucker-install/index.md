@@ -5,7 +5,7 @@ summary: ✨ Twitterをより快適に使ってみよう！。
 published: '2023-02-09T00:00:00.000+09:00'
 updated: '2023-04-22T23:00:00.000+09:00'
 cover: ./assets/cover.jpg
-coverStyle: IN
+coverStyle: TOP
 tags:
   - [Android,Xposed]
 ---

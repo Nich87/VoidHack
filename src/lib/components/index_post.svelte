@@ -155,7 +155,6 @@
 
 <style lang="scss">
   .index-post {
-    min-height: 200px;
     border-top: var(--qwer-border-mobile);
     border-bottom: var(--qwer-border-mobile);
     color: var(--qwer-text-color);
