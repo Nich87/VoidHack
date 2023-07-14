@@ -3,10 +3,6 @@
   /* eslint-disable @typescript-eslint/ban-ts-comment */
   // @ts-nocheck
   import Post from '$lib/layouts/post.svelte';
-  import ImgZoom from '$lib/components/image_zoom.svelte';
-  import Video from '$lib/components/video.svelte';
-  import CodeCopy from '$lib/components/code_copy.svelte';
-  import InfoBox from '$lib/components/info_box.svelte';
 </script>
 
 <Post>
