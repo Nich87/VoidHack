@@ -5,7 +5,7 @@ summary: ✨ 日本語のユーザーディレクトリを英語に変更しよ�
 published: '2023-04-17T13:00:00.000+09:00'
 updated: '2023-04-17T13:00:00.000+09:00'
 cover: ./assets/cover.jpg
-coverStyle: IN
+coverStyle: TOP
 tags:
   - [Linux,Setting,豆知識]
 ---
