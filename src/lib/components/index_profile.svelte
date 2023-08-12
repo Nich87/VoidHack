@@ -22,7 +22,7 @@
       role="tooltip"
       use:tippy={{ placement: 'right', interactive: true, allowHTML: true }}
       data-tippy-content={siteConfig.author.statusTip}
-      class="absolute rounded-full w-8 h-8 bottom-0 left-24 shadow-xl text-lg flex justify-center items-center animate-heart-beat">
+      class="absolute rounded-full w-8 h-8 bottom-0 left-24 shadow-xl text-lg flex justify-center items-center">
       {siteConfig.author.status ?? ''}
     </div>
   </div>
@@ -75,40 +75,40 @@
     background-color: var(--qwer-bg-color);
   }
 
-  .animate-heart-beat {
-    animation: heartbeat 2s ease-in-out 2s infinite;
-  }
-  @keyframes heartbeat {
-    0% {
-      transform: scale(1);
-    }
+  // .animate-heart-beat {
+  //   animation: heartbeat 2s ease-in-out 2s infinite;
+  // }
+  // @keyframes heartbeat {
+  //   0% {
+  //     transform: scale(1);
+  //   }
 
-    2% {
-      transform: scale(1);
-    }
+  //   2% {
+  //     transform: scale(1);
+  //   }
 
-    4% {
-      transform: scale(1.1);
-    }
+  //   4% {
+  //     transform: scale(1.1);
+  //   }
 
-    8% {
-      transform: scale(1.12);
-    }
+  //   8% {
+  //     transform: scale(1.12);
+  //   }
 
-    20% {
-      transform: scale(0.94);
-    }
+  //   20% {
+  //     transform: scale(0.94);
+  //   }
 
-    24% {
-      transform: scale(1.12);
-    }
+  //   24% {
+  //     transform: scale(1.12);
+  //   }
 
-    32% {
-      transform: scale(1.1);
-    }
+  //   32% {
+  //     transform: scale(1.1);
+  //   }
 
-    40% {
-      transform: scale(1);
-    }
-  }
+  //   40% {
+  //     transform: scale(1);
+  //   }
+  // }
 </style>
