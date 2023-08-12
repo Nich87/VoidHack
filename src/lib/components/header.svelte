@@ -194,7 +194,7 @@
               {#key $page}
                 <button
                   id="search"
-                  aria-label="search"
+                  aria-label="search / 検索 /"
                   tabindex="0"
                   on:click={() => {
                     $searching = true;
