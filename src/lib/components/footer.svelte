@@ -58,7 +58,7 @@
         <a
           itemprop="copyrightNotice"
           href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"
-          aria-label="Creative Commons License"
+          aria-label="CC BY-NC-SA 4.0(Creative Commons License)"
           target="_blank"
           rel="noreferrer noopener license external"
           style="display:inline-block;">
