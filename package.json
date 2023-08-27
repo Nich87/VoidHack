@@ -27,7 +27,7 @@
     "build:sveltekit": "vite build",
     "build:QWER_Without_Meta": "node --no-warnings QWER buildWithoutMeta",
     "build:QWER": "node --no-warnings QWER build",
-    "build": "npm-run-all -s build:QWER build:i18n build:partytown build:sveltekit",
+    "build": "npm-run-all -s build:QWER build:i18n build:sveltekit",
     "preview": "vite preview",
     "clean:husky": "rimraf .husky",
     "clean:sveltekit": "rimraf .svelte-kit",
