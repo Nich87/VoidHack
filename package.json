@@ -112,5 +112,8 @@
     "unocss-preset-scrollbar": "^0.2.1",
     "vite": "^4.4.4",
     "vite-imagetools": "^5.0.5"
+  },
+  "dependencies": {
+    "@sveltejs/adapter-cloudflare": "^2.3.3"
   }
 }
